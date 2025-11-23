@@ -22,6 +22,10 @@ header {
     font-size: 18px;
 }
 
+header h1 {
+    font-size: 18px;
+    margin: 0; /* optional: keeps it aligned nicely */
+}
 
 header .container {
     display: flex;
@@ -39,7 +43,7 @@ header nav ul {
 }
 
 header nav a {
-    color: #6b7280 ;
+    color: #6b7280;
     text-decoration: none;
     margin-right: 20px;
 }
@@ -71,6 +75,10 @@ header nav a:hover{
     margin-top: 20px;
 }
 
+.learn-about  h2 {
+    color: #48BB78;
+    font-size: 24px;
+}
 .learn-about .card {
     border: 1px solid #E2E8F0;
     border-radius: 5px;
@@ -80,6 +88,8 @@ header nav a:hover{
 
 .learn-about .card img {
     width: 100%;
+    height: 200px;        
+    object-fit: cover;
     border-radius: 5px;
     margin-bottom: 15px;
 }
@@ -98,6 +108,11 @@ header nav a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.testing-description {
+    flex: 1;
+    margin-right: 20px;
 }
 
 .testing .cta a {

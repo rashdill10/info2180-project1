@@ -1,11 +1,97 @@
 /* Add your CSS to this file */
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif;
 }
 
 .container {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+}
+
+header {
+    background-color: white;
+    font-size: 18px;
+}
+
+header nav a {
+    color: #6b7280 ;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header nav a:hover{
+    color: #5A67D8;
+}
+
+.overview{
+    background-color: #E2E8F0;
+    padding: 40px 0;
+}
+
+.learn-about h2 {
+    font-size: 24px;
+    color: #48BB78;
+}
+
+.learn-about .card {
+    border: 1px solid #E2E8F0;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.learn-about .card h3 {
+    color: #48BB78;
+    font-size: 21px;
+}
+
+.covid {
+    background-color: #4A5568;
+    color: white;
+    padding: 40px 0;
+}
+
+.covid a {
+    background-color: #48BB78;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.recent-stories h2,
+.recent-stories a {
+    color: #5A67D8;
+}
+
+.recent-stories .story-title {
+    font-size: 18px;
+}
+
+.recent-stories img {
+    border-radius: 50%;
+}
+
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+    padding: 40px 0;
+}
+
+.newsletter button {
+    background-color: #5A67D8;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 16px;
+}
+
+footer {
+    background-color: #4A5568;
+    color: white;
+    padding: 20px 0;
 }
